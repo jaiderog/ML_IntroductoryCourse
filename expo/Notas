@@ -1,0 +1,9 @@
+ Es rápido, simple y fácil de programar. 
+
+Finalmente, viene con un conjunto de garantías teóricas con datos suficientes y un alumno débil que
+puede proporcionar confiablemente solo hipótesis débiles moderadamente precisas
+
+el boosting puede no funcionar bien si hay datos insuficientes, hipotesis demasiado debiles o muy complejas, es suceptible al ruido	
+
+
+una generalización del adabost puede darnos una interpretacion como un método de gradient descendt, donde se utiliza una función de costo convexa en coordenadas de clasificadores lineales
