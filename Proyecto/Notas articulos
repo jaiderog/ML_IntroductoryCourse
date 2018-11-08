@@ -1,0 +1,53 @@
+A data-driven approach to predict the success of bank telemarketing
+
+Vender depositos a largo plazo
+Datos recolectados entre Mayo 2008- Junio 2013
+
+Se hizo una selección semi-automatica explorada en la fase de modeling, permitir reducir a 22 caracteristicas
+
+Se comparan 4 modelos de data mining:
+-Regresión logistica
+-Árboles de decisión
+- Redes Neuronales
+- Máquinas de soporte vectorial
+
+Se usaron dos métricas:
+AUC area of the receiver operating characteristic curve
+ALIFT area of the LIFT cumulative curve
+
+Para testear se usó los datos más recientes despues de julio de 2012
+
+Resultados:
+NN - Presenta los mejores resultados alcanza a llegar a los 79% suscriptores seleccionando la mitad de los clientes mejores clasificados
+
+Árboles de decision aplicados en un modelo de redes neuronales, y revelan atributos claves como Euribor rate, direction of the call and bank agent experience
+
+Se utlizaron dos métodos de extracción de conocimiento, un análisis de sensiblidad, se dice que tal extracción fue confimada del modelo obtenido y valuado por managers de campañas de telemarketing.
+
+
+INTRODUCCIÓN
+La tecnología permite enfornos en maximiar el tiempo de vida del cliente atraves de la información disponible y las metricas de los clientes. Además seleccionar a los mejores clientes que les gustaría suscribrirse a el producto.
+
+
+2. MATERIALS AND METHODS
+2.1 Bank telemarketing data
+
+Esta investigación se enfoca en etiquetar a traves de llamadas telefonicas depositos a largo plazo. 
+Clientes OUTBOUND -> Clientes qeu vendieron el deposito
+CLientes INTBOUND -> Clientes que llamaron preguntando suscribir al deposito
+
+
+El problema está desbalanceado: Hay 52944 llamadas y sólo 6557 (12.38%) con éxito. La evaluación se hizo de acuerdo con el orden de tiempo, 4 años de entrenamiento y un año de test.
+
+Los datos de entrenamiento fueron usuados para la selección de caracterisricas y modelo. Incluye hasta junio de 2012 (51651).
+
+Los datos de test fueron usados para medir la capacidad de predicción del data-driven model seleccionado, incluye julio 2012-junio 2013 (1293).
+
+Los registros se enriquecieron mediante influencia social como la tasa de desempleo , recopilación de sitios web externos como la estadisica del banco central de la republica portuguese.
+
+La combinación de dos fuentes de datos nos dió un caractéricas potencialmente utiles con un total de 150 atributos
+
+
+
+
+
