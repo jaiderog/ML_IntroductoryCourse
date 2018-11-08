@@ -45,7 +45,16 @@ Los datos de test fueron usados para medir la capacidad de predicción del data-
 
 Los registros se enriquecieron mediante influencia social como la tasa de desempleo , recopilación de sitios web externos como la estadisica del banco central de la republica portuguese.
 
-La combinación de dos fuentes de datos nos dió un caractéricas potencialmente utiles con un total de 150 atributos
+La combinación de dos fuentes de datos nos dió un caractéricas potencialmente utiles con un total de 150 atributos.
+
+2.2. Data mining
+Con la regresión logistica se tiene: la combinación lineal aditiva de sus variables independientes (x), el modelo es fácil de interpretar, el modelo es un tanto ridigo y no se adecua correctamente cuando hay relaciones no-lineales complejas.
+
+2.3 Evaluación
+La clase puede ser asignada con un probabilidad asignando un limite D si c es verdad.
+La curva ROC muestra un rendimiento de  el rando de los valores de D de un clasificador de dos clases.
+
+En el dominio del marketing se muestra el analisis de Lift es popular para el acceso de la calidad de modelos a etiquetar
 
 
 
